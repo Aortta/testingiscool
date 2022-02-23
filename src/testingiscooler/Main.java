@@ -18,12 +18,8 @@ public class Main {
             if(sc.hasNext()) {
                 int i = 0;
                 s = sc.nextLine();
-                try {
-                    i = Integer.parseInt(s);
-                }
-                catch (NumberFormatException ex) {
-                    ex.printStackTrace();
-                }
+                
+                i = Integer.parseInt(s);
 
                 switch(i){
                     case 1:
@@ -60,7 +56,7 @@ public class Main {
             }
             
         
-        }
+        }sc.close();
 
     }
 }
